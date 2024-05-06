@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3 uid="uid://cbp8rvwqhq1dr"]
+
+[ext_resource type="PackedScene" uid="uid://thjtqvwxla4b" path="res://character_body_2d.tscn" id="1_jowyh"]
+[ext_resource type="Script" path="res://character_body_2d2.gd" id="2_4x5t5"]
+
+[node name="CharacterBody2D" instance=ExtResource("1_jowyh")]
+script = ExtResource("2_4x5t5")
